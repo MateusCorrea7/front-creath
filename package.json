@@ -1,0 +1,24 @@
+{
+  "name": "front-end-kbrtec",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "watch": "gulp watch"
+  },
+  "keywords": [],
+  "author": "Mateus Domingues",
+  "license": "ISC",
+  "description": "Codigo front-end realizado como metodo avaliativo para vaga front-end.",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0"
+  },
+  "dependencies": {
+    "sass": "^1.77.8"
+  }
+}

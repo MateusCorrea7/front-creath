@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="src/scss/login/login.css">
+  <title>Login</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="forms-container">
+      <div class="login-cadastro">
+        <form action="" class="login-form">
+          <h2 class="title">Login</h2>
+          <div class="input-field">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input type="tel" placeholder="Telefone">
+          </div>
+          <div class="input-field">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="password" placeholder="Senha">
+          </div>
+          <input type="submit" value="Login" class="btn solid">
+        </form>
+
+        <form action="" class="cadastro-form">
+          <h2 class="title">Cadastro</h2>
+          <div class="input-field">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="Nome">
+          </div>
+          <div class="input-field">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input type="tel" placeholder="Telefone">
+          </div>
+          <div class="input-field">
+            <i class="fa fa-key" aria-hidden="true"></i>
+            <input type="password" placeholder="Senha">
+          </div>
+          <input type="submit" value="Cadastro" class="btn solid">
+        </form>
+
+      </div>
+    </div>
+
+    <div class="panels-container">
+      <div class="panel panel-esquerdo">
+        <div class="content">
+          <h3>Novo aqui?</h3>
+          <p>Faça seu cadastro em nosso site para poder fazer o seu agendamento.</p>
+          <button class="btn trasparent" id="cadastro-btn">Fazer cadastro</button>
+        </div>
+      </div>
+
+      <div class="panel panel-direito">
+        <div class="content">
+          <h3>Já é um de nós?</h3>
+          <p>Faça seu login em nosso site para poder fazer o seu agendamento.</p>
+          <button class="btn trasparent" id="login-btn">Entre na conta</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="src/login.js"></script>
+</body>
+</html>

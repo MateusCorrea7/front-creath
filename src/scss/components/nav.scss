@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    .nav-item {
+        position: relative;
+        margin: 0 30px;
+        display: flex;
+        align-items: center;
+
+        a {
+            font-size: 14px;
+            font-weight: bold;
+            color: $branco;
+            letter-spacing: 1px;
+            padding: 2px 0;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        &:hover {
+            a {
+                color: $amarelo;
+            }
+        }
+    }
+}

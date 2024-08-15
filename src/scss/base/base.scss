@@ -1,0 +1,22 @@
+@import 'base/variables.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: $roboto;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $branco;
+
+   
+}
+
+html {
+    scroll-behavior: smooth;
+}

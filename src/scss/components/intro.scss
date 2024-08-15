@@ -1,0 +1,88 @@
+.intro {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    overflow: auto;
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: $branco;
+    position: relative;
+    top: -4rem;  // Move o título para cima
+}
+
+.title h1 {
+    font-size: 30px;
+}
+
+.title .baixo {
+    margin-top: 0.3rem;
+    display: block;
+    font-size: 26px;
+}
+
+.title p {
+    margin-top: 0.5rem;
+    font-size: 16px;
+}
+
+.button-intro {
+    background-color: $amarelo;
+    color: $azul-escuro;
+    font-family: $fontprincipal;
+    border: none;
+    padding: 5px 70px;
+    margin-top: 2rem;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover {
+        background-color: darken($amarelo, 20%);
+    }
+}
+
+.smoke-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to top, rgba(13, 18, 30, 0.8), rgba(13, 18, 30, 0));
+    mix-blend-mode: multiply;
+    z-index: 1;
+    pointer-events: none;
+}

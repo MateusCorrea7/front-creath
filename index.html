@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Equipe Creath">
+    <link rel="stylesheet" href="dist/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <title>BarbershopCreath</title>
+</head>
+
+<body>
+    <header>
+        <div class="containerr">
+            <div class="header-desktop">
+                <div class="logo">
+                    <img src="src/assets/logo.png" alt="">
+                </div>
+            </div>
+            <div class="header-right">
+                <a href="#" id="menu-header-right" class="header-right-interaction"></a>
+                <ul class="nav">
+                    <li class="nav-item"><a href="#section-discover">Local</a></li>
+                    <li class="nav-item"><a href="#section-about">Sobre</a></li>
+                    <a href="login.html" class="button-link" target="_blank">Contato</a>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro" id="section-intro" style="background-image: url(src/assets/fundointro.png);">
+        <div class="container">
+            <div class="title">
+                <h1>ESTILO É UM REFLEXO DA SUA ATITUDE <span class="baixo">E SUA PERSONALIDADE.</span></h1>
+                <p>Horário de funcionamento das 08:00 às 19:00</p>
+                <a href="login.html" class="button-intro" target="_blank">AGENDAR</a>
+            </div>
+        </div>
+        <div class="smoke-overlay"></div>
+    </section>
+
+    <section class="about" id="section-about" style="background-image: url(src/assets/fundoabout.png);">
+        <div class="container">
+
+            <div class="text-container">
+                <h1>SOBRE</h1>
+                <p>BarbershopCreath combina estilo e tradição.</p>
+                <p>Cortes modernos, barbas impecáveis e atendimento personalizado.</p>
+                <p>Experimente sofisticação e cuidado excepcional.</p>
+                <p class="funcionamento">Horário de funcionamento das 08:00 às 19:00</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="discover" id="section-discover" style="background-image: url(src/assets/fundodiscover.png);">
+        <div class="container">
+            <div class="titless">
+                <h1>NOSSAS UNIDADES</h1>
+            </div>
+
+            <div class="icons">
+                <a href="https://twitter.com" class="icon-link" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com" class="icon-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com" class="icon-link" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="src/index.js"></script>
+
+    <style>
+        
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #F0B35B;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        * {
+            scrollbar-width: thin;
+            scrollbar-color: #F0B35B #f1f1f1;
+        }
+
+        .content {
+            height: 200vh; 
+            padding: 20px;
+            background: #eee;
+        }
+    </style>
+</body>
+
+</html>

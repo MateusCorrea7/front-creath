@@ -1,0 +1,53 @@
+header {
+    padding: 0.1rem 10%;
+    background-color: $azul-escuro;
+    max-height: 100px;
+
+    .containerr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header-desktop {
+        display: flex;
+        align-items: center;
+
+        .logo {
+            img {
+                margin-top: 10px;
+                width: 3rem;
+                margin-right: 1rem;
+            }
+        }
+
+    }
+
+    .header-right {
+
+        .button-link {
+            font-family: $fontprincipal;
+            background-color: $amarelo;
+            color: $branco;
+            border: none;
+            font-size: 12px;
+            border-radius: 4px;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin-left: 3rem;
+
+            img {
+                margin-left: 6px;
+            }
+
+            &:hover {
+                background-color: darken($amarelo, 20%);
+            }
+        }
+
+    }
+}

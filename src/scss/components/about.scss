@@ -1,0 +1,48 @@
+/* styles.css */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+    background-color: #0D121E;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+.text-container {
+    font-family: $fontprincipal;
+    text-align: left;
+    margin-top: -3rem;
+    margin-left: auto;
+    margin-right: -50px;
+}
+
+.text-container h1 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.text-container p {
+    font-size: 18px;
+}
+
+.text-container .funcionamento {
+    color: $amarelo;
+    margin-top: 1rem;
+}
